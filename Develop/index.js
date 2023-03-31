@@ -33,12 +33,6 @@ const questions = [
 
     },
     {
-        name: 'Contents',
-        message: 'Table of Contents',
-        type: 'input'
-
-    },
-    {
         name: 'Installation',
         message: 'Installation',
         type: 'input'
@@ -51,7 +45,7 @@ const questions = [
 
     },
     {
-        name: 'credits',
+        name: 'Credits',
         message: 'Credits or contributing?',
         type: 'input'
 
@@ -60,7 +54,7 @@ const questions = [
         name: 'license',
         message: 'Choose your license',
         type: 'list',
-        choices: ['MIT', 'GPLv2', 'Apache', 'BSD 3-clause'],
+        choices: ['MIT', 'GPLv2', 'Apache', 'BSD 3-clause','none'],
         validate: promterInput => {
             if (promterInput) {
                 return true;
@@ -101,7 +95,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(function (userInfo) {
         console.log(userInfo)
-        writeToFile('README.dm', generateMarkdown(userInfo));
+        writeToFile('README.md', generateMarkdown(userInfo));
     })
 }
 
