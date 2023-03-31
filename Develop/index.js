@@ -1,8 +1,13 @@
 // TODO: Include packages needed for this application
+
 // requiered packgaes
 const inquirer = require('inquirer');
 const fs = require('fs')
 //README Markdown
+
+const inquirer = require('inquirer');
+const fs = require('fs')
+
 const generateMarkdown = require('./utils/generateMarkdown')
 
 console.log('... README generator');
@@ -33,6 +38,15 @@ const questions = [
 
     },
     {
+
+
+        name: 'Contents',
+        message: 'Table of Contents',
+        type: 'input'
+
+    },
+    {
+
         name: 'Installation',
         message: 'Installation',
         type: 'input'
@@ -45,7 +59,11 @@ const questions = [
 
     },
     {
+
         name: 'Credits',
+
+        name: 'credits',
+
         message: 'Credits or contributing?',
         type: 'input'
 
@@ -54,7 +72,11 @@ const questions = [
         name: 'license',
         message: 'Choose your license',
         type: 'list',
+
         choices: ['MIT', 'GPLv2', 'Apache', 'BSD 3-clause','none'],
+
+        choices: ['MIT', 'GPLv2', 'Apache', 'BSD 3-clause'],
+
         validate: promterInput => {
             if (promterInput) {
                 return true;
@@ -95,7 +117,11 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(function (userInfo) {
         console.log(userInfo)
+
         writeToFile('README.md', generateMarkdown(userInfo));
+
+        writeToFile('README.dm', generateMarkdown(userInfo));
+
     })
 }
 
