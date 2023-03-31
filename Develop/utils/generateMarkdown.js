@@ -32,7 +32,7 @@ function renderLicenseSection(license) {
   if( license === 'none' ){
     return ''
   } else {
-    return `###Lincese
+    return `### Lincese
     ${renderLicenseBadge(license)}`
   }
 }
@@ -58,7 +58,7 @@ function generateMarkdown(data) {
 
 
   ### Installation
-  ${data.istallation}
+  ${data.installation}
 
   ### Usage
   ${data.usage}

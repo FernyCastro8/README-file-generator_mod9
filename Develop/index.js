@@ -26,26 +26,26 @@ const questions = [
         },
     },
     {
-        name: 'Description',
+        name: 'description',
         message: 'Description',
         type: 'input',
 
 
     },
     {
-        name: 'Installation',
+        name: 'installation',
         message: 'Installation',
         type: 'input'
 
     },
     {
-        name: 'Usage',
+        name: 'usage',
         message: 'Usage',
         type: 'input'
 
     },
     {
-        name: 'Credits',
+        name: 'credits',
         message: 'Credits or contributing?',
         type: 'input'
 
@@ -67,13 +67,13 @@ const questions = [
 
     },
     {
-        name: 'Github',
+        name: 'github',
         message: 'Enter GitHub username',
         type: 'input'
 
     },
     {
-        name: 'Email',
+        name: 'email',
         message: 'Enter email address',
         type: 'input'
 

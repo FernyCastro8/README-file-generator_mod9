@@ -1,6 +1,6 @@
-# sadfg
+# README file generator
   ### Description
-  undefined
+  n/a
 
   ## Table of contents
 
@@ -17,19 +17,19 @@
 
 
   ### Installation
-  undefined
+  n/a
 
   ### Usage
-  undefined
+  n/a
 
   #### Credits
-  undefined
+  n/a
 
-  ###Lincese
+  ### Lincese
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ####Github
-  undefined
+  #### Github
+  n/a
 
   #### Email
-  undefined
+  n/a
