@@ -1,7 +1,5 @@
-README file generator
+# README file generator
 
-## Timed quiz on JavaScript fundamentals
- 
 #### output: READM.md
 
 ###### Node JS
@@ -33,10 +31,11 @@ package.json
 #### Websites 
 
 - Github
+https://github.com/FernyCastro8/README-file-generator_mod9.git
 
 
 - URL
-
+https://fernycastro8.github.io/README-file-generator_mod9/
 
 
 - [Screen Shot]

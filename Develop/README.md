@@ -1,6 +1,6 @@
-# README file generator
+# Example README File
   ### Description
-  n/a
+  example
 
   ## Table of contents
 
@@ -17,19 +17,19 @@
 
 
   ### Installation
-  n/a
+  example
 
   ### Usage
-  n/a
+  example
 
   #### Credits
-  n/a
+  example
 
   ### Lincese
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   #### Github
-  n/a
+  example
 
   #### Email
-  n/a
+  example

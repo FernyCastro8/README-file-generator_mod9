@@ -3,7 +3,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
 //README Markdown
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./Develop/utils/generateMarkdown')
 
 console.log('... README generator');
 
